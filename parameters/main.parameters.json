@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "containerRegistryName": {
+        "value": "sofiaex3containeregistry"
+      },
+      "appServicePlanName": {
+        "value": "sofiaex3-appservice-plan"
+      },
+      "webAppName": {
+        "value": "sofiaex3-appservice"
+      },
+      "containerRegistryImageName": {
+        "value": "flask-demo"
+      },
+      "containerRegistryImageVersion": {
+        "value": "latest"
+      },
+      "keyVaultName": {
+        "value":"sofiaex3-keyvault"
+      },
+      "location": {
+        "value": "Norway East"
+      }
+    }
+  }
