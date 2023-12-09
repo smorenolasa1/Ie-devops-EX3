@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "username": {
+        "value": "panchomb"
+      },
+      "keyVaultName": {
+        "value": "panchombkv"
+      },
+      "containerRegistryName": {
+        "value": "panchombacr"
+      },
+      "containerRegistryImageName": {
+        "value": "flask-demo"
+      },
+      "containerRegistryImageVersion": {
+        "value": "latest"
+      },
+      "appServicePlanName": {
+        "value": "panchomb-asp"
+      },
+      "appName": {
+        "value": "panchomb-app"
+      }
+    }
+  }
