@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "username": {
-        "value": "panchomb"
+        "value": "sofia"
       },
       "keyVaultName": {
-        "value": "panchombkv"
+        "value": "sofiakv"
       },
       "containerRegistryName": {
-        "value": "panchombacr"
+        "value": "sofiaacr"
       },
       "containerRegistryImageName": {
         "value": "flask-demo"
@@ -18,10 +18,13 @@
         "value": "latest"
       },
       "appServicePlanName": {
-        "value": "panchomb-asp"
+        "value": "sofia-asp"
       },
       "appName": {
-        "value": "panchomb-app"
+        "value": "sofia-app"
+      },
+      "location": {
+        "value": "Norway East"
       }
     }
   }
