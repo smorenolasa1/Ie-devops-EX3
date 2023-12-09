@@ -2,17 +2,14 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "keyVaultName": {
-            "value": "sofiaex3kv"
-        },
-        "roleAssignments": {
-            "value": [
-                {
-                    "principalId": "7200f83e-ec45-4915-8c52-fb94147cfe5a",
-                    "roleDefinitionIdOrName": "Key Vault Secrets User",
-                    "principalType": "ServicePrincipal"
-                }
-            ]
-        }
+      "keyVaultName": {
+        "value": "sofiaex3-keyvault"
+      },
+      "location": {
+        "value": "Norway East"
+      },
+      "containerRegistryName" : {
+        "value": "sofiaex3containeregistry"
+      }
     }
   }
