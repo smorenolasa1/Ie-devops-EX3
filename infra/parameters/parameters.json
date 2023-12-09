@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "username": {
-        "value": "sofia"
+        "value": "sof"
       },
       "keyVaultName": {
-        "value": "sofiakv"
+        "value": "sofkv"
       },
       "containerRegistryName": {
-        "value": "sofiaacr"
+        "value": "sofacr"
       },
       "containerRegistryImageName": {
         "value": "flask-demo"
@@ -18,10 +18,10 @@
         "value": "latest"
       },
       "appServicePlanName": {
-        "value": "sofia-asp"
+        "value": "sof-asp"
       },
       "appName": {
-        "value": "sofia-app"
+        "value": "sof-app"
       },
       "location": {
         "value": "Norway East"
