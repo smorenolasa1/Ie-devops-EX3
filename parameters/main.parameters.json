@@ -9,7 +9,7 @@
         "value": "sofiaex3-appservice-plan"
       },
       "webAppName": {
-        "value": "sofiaex3-appservice"
+        "value": "sofiaex3-webapp"
       },
       "containerRegistryImageName": {
         "value": "flask-demo"
